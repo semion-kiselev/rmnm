@@ -10,7 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/semion-kiselev/rmnm.git"
   },
-  "bin": "./index.js",
+  "bin": {
+    "rmnm": "./index.js"
+  },
   "author": "Semion Kiselev",
   "license": "ISC",
   "bugs": {

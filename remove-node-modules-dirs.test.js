@@ -1,6 +1,6 @@
 const test = require('node:test');
 const assert = require('node:assert/strict');
-const { mkdirSync, rmSync, writeFileSync, readdirSync, statSync } = require('fs');
+const { mkdirSync, rmSync, writeFileSync, readdirSync } = require('fs');
 const { resolve } = require('path');
 const removeNodeModulesDirs = require('./remove-node-modules-dirs');
 
