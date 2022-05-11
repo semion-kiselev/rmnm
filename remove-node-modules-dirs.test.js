@@ -2,7 +2,7 @@ const test = require('node:test');
 const assert = require('node:assert/strict');
 const { mkdirSync, rmSync, writeFileSync, readdirSync, statSync } = require('fs');
 const { resolve } = require('path');
-const removeNodeModulesDirs = require('./index');
+const removeNodeModulesDirs = require('./remove-node-modules-dirs');
 
 const createTestDirs = () => {
 /*
