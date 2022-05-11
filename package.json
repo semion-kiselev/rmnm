@@ -1,0 +1,19 @@
+{
+  "name": "rmnm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/semion-kiselev/rmnm.git"
+  },
+  "author": "Semion Kiselev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/semion-kiselev/rmnm/issues"
+  },
+  "homepage": "https://github.com/semion-kiselev/rmnm#readme"
+}
